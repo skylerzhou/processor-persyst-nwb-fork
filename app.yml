@@ -12,8 +12,8 @@ parameters:
   - name: OUTPUT_FILENAME
     type: string
     required: false
-    description: Bare filename (no path) for the NWB output file. Leave blank to use the stem of the .lay file
-    defaultValue: ''
+    description: Bare filename (no path) for the NWB output file, which the next workflow step reads. Must end in .nwb
+    defaultValue: persyst_recording.nwb
   - name: PERSYST_TIMEZONE
     type: string
     required: false
